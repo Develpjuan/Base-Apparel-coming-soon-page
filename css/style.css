@@ -36,7 +36,7 @@ body {
     width: 100%;
     height: 300px;
     margin-bottom: 35px;
-    background-image: url("/images/hero-mobile.jpg");
+    background-image: url("../images/hero-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -140,7 +140,7 @@ body {
 @media screen and (min-width: 480px) {
     .content-principal__img {
         height: 645px;
-        background-image: url("/images/hero-desktop.jpg")
+        background-image: url("../images/hero-desktop.jpg")
     }
 
     .form__text {
@@ -167,7 +167,7 @@ body {
 @media screen and (min-width: 1024px) {
     .main {
         min-height: 100vh;
-        background-image: url("/images/bg-pattern-desktop.svg");
+        background-image: url("../images/bg-pattern-desktop.svg");
         background-repeat: no-repeat;
         background-size: 995px 100vh;
     }
